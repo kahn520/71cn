@@ -74,7 +74,7 @@ namespace _71cn
                         }
                         else
                         {
-                            ppt.Slides.InsertFromFile(f, ppt.Slides.Count + 1);
+                            ppt.Slides.InsertFromFile(f, ppt.Slides.Count);
                             File.Delete(f);
                         }
                         
